@@ -1,0 +1,60 @@
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;	
+}
+
+nav{
+	display: inline-block;
+	width: 30%;
+}
+nav ul{
+	width: 100%;
+}
+nav ul li{
+	border-bottom: 1px solid #1ABC9C;
+	font-size: 1.2em;
+	padding: 0.3em;
+	text-align: center;
+}
+nav ul a{
+	text-decoration: none;
+}
+section#principal{
+	display: inline-block;
+	width: 65%;
+}
+form{
+	border: 1px solid #1ABC9C;
+	border-radius: 5px;
+	margin: 0 auto;
+	padding: 1em;
+	text-align: center;
+	width: 70%;
+}
+form input{
+	border: 1px solid #1ABC9C;
+	font-size: 1em;
+	margin: 0.5em auto;
+}
+form input[type="submit"]{
+	background-color: #1ABC9C;
+	color: white;
+	padding: 0.2em;
+}
+table{
+	margin-top: 1em;
+	text-align: center;
+	width: 100%;
+}
+table th{
+	background-color: #1ABC9C;
+	color: white;
+	padding: 0.2em;
+}
+table tr:nth-child(odd){
+	background-color: #1ABC9C;
+}
+table td{
+	padding: 0.2em;
+}
